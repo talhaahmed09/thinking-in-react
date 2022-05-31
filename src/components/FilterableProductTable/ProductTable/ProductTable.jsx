@@ -18,7 +18,6 @@ const ProductTable = (props) => {
   // setfilteredData(filteredResults);
   filteredData = filteredResults;
   let category = null;
-  console.log(filteredResults);
 
   const updateCategory = (prev) => {
     category = prev;
