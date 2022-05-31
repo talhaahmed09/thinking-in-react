@@ -13,7 +13,6 @@ function FilterableProductTable({data}) {
   };
 
   const handleInputChange = (e) => {
-    console.log('handleInputChange');
     setFilteredText(e.target.value);   
   };
 
